@@ -1,5 +1,12 @@
 body {
 	background-color: #F0F0F0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+	color: #17588B;
+	/*font-style: italic;*/
+	font-size: 25px;
 }
 
 .main-menu {
@@ -20,6 +27,13 @@ body {
 	opacity: 0.6;
 }
 
+footer {
+	background-color: #009688;
+	height: auto;
+	margin-top: 40px;
+	padding: 40px;
+}
+
 .div-shadow {
 	box-shadow: 0px 2px 1px #A7A7A7;
 	margin-bottom: 40px;
@@ -27,19 +41,57 @@ body {
 
 .main-div {
 	background-color: #FFF;	
-	height: 300px;
+	height: 400px;
+	padding: 75px;
+}
+
+.mapa-div {
+	background-color: #FFF;	
+	height: 250px;
+	padding: 75px;
+}
+
+.main-div p {
+	font-size: 22px;
+    font-style: italic;
+    margin-top: 30px;
+    padding: 0 140px;
+    text-align: center;
+    color: #17588B;
 }
 
 .title-div {
 	background-color: #17588B;
 	height: 80px;
-	padding: 40px;
+	padding: 5px;
+}
+
+.title-div h2 {
+	color: #FFF;
+	font-style: italic;
+	font-size: 25px;
 }
 
 .info-div {
 	background-color: #306A98;
-	padding: 40px;
 	height: auto;
+	padding: 30px 0;
+	color: #FFF;
+	font-style: italic;
+}
+
+.info-div h4 {
+	font-size: 25px;
+}
+
+.info-div p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.info-div p.info {
+	font-size: 15px;
+	color: #8ACFC9;
 }
 
 .date-div {
@@ -54,6 +106,15 @@ body {
 	border-radius: 50px;
 }
 
+.date-div p {
+	text-align: center;
+    line-height: 16px;
+    font-style: italic;
+    color: #FFF;
+    font-size: 23px;
+    margin-top: 28px;
+}
+
 .date-div-shadow {
 	width: 90px;
 	height: 90px;
@@ -66,4 +127,169 @@ body {
 	border-radius: 50px;
 	box-shadow: 0px 2px 1px #003B46;
 	opacity: 0.5;
+}
+
+.cta-div {
+	margin-top: 13px;
+    padding: 10px;
+}
+
+.cta-green {
+    background-color: #8ACFC9;
+    font-size: 20px;
+    color: #306A98;
+    padding: 10px 25px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.org-text {
+	width: 200px;
+	text-align: center;
+}
+
+a:hover .org-images,
+a:hover .tw-logo {
+	-ms-transform: scale(1.03,1.03); /* IE 9 */
+   	-webkit-transform: scale(1.03,1.03); /* Safari */
+    transform: scale(1.03,1.03);
+}
+
+.tw-logo-info {
+	width: 89px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: white;
+}
+
+/* IMAGES */
+.logo {
+	background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.django-logo {
+    background-image: url(../images/django_girls.png);
+    height: 42px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.python-icon {
+	background-image: url(../images/python_icon.png);
+	height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.tw-logo {
+	width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.org-images {
+	width: 200px;
+	height: auto;
+}
+
+
+@media (max-width: 992px) {
+	.main-div p {
+		padding: 0 40px;
+	}
+	.django-logo,
+	.title-div div {
+		margin-left: 20%;	
+	}
+	.title-div.charla h2 {
+		margin-left: 183px;
+	    margin-top: -39px;
+	} 
+}
+
+@media (max-width: 660px) {
+	.logo {
+		width: 350px;
+	}
+
+	.django-logo,
+	.title-div div {
+		margin-left: 27%;	
+	}
+
+	.main-div {
+		height: 350px;
+		padding: 50px;
+	}
+
+	.main-div p {
+		padding: 0;
+	}
+}
+
+@media (max-width: 500px) {
+	.django-logo,
+	.title-div div {
+		margin-left: 34%;
+	}
+}
+
+
+@media (max-width: 400px) {
+	.logo {
+		width: 260px;
+	}
+
+	.django-logo,
+	.title-div div {
+		margin-left: 40%;
+	}
+
+	.title-div.charla h2 {
+		margin-left: 183px;
+	    margin-top: -51px;
+	}   
+}
+
+@media (max-width: 320px) {
+	.logo {
+		width: 200px;
+	}
+
+	.main-div {
+		height: 425px;
+		padding: 50px;
+	}
+
+	.django-logo,
+	.title-div div {
+		margin-left: 45%;
+		-ms-transform: scale(0.8,0.8); /* IE 9 */
+	   	-webkit-transform: scale(0.8,0.8); /* Safari */
+	    transform: scale(0.8,0.8);
+	}
+
+	.title-div.charla h2 {
+		margin-left: 155px;
+	    margin-top: -51px;
+	    -ms-transform: scale(0.8,0.8); /* IE 9 */
+	   	-webkit-transform: scale(0.8,0.8); /* Safari */
+	    transform: scale(0.8,0.8);
+	}   
+
+	.cta-green {
+		font-size: 18px; 
+		padding: 10px 10px;
+	}
 }
