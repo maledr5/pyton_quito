@@ -1,6 +1,7 @@
 body {
 	background-color: #F0F0F0;
 	font-family: 'Roboto Condensed', sans-serif;
+  	padding-top: 50px;
 }
 
 h2 {
@@ -11,13 +12,18 @@ h2 {
 
 .main-menu {
 	background-color: #009688;
-	height: 60px;
+/*	height: 60px;
 	margin-bottom: 40px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: center;*/
 }
-
+.main-menu .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.main-menu .navbar-toggle {
+    border-color: #17588B;
+}
 .main-menu a {
 	color: #FFF;
 	text-decoration: none;
@@ -48,7 +54,7 @@ footer {
 .mapa-div {
 	background-color: #FFF;	
 	height: 250px;
-	padding: 75px;
+	/*padding: 20px;*/
 }
 
 .main-div p {
@@ -292,4 +298,15 @@ a:hover .tw-logo {
 		font-size: 18px; 
 		padding: 10px 10px;
 	}
+	}
+.location-area {
+    background: #e7e7e7;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 100%;
+}
+
+
+.starter-template {
+  padding: 40px 15px;
 }

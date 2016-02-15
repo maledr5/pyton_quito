@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Title of the document</title>
+	<title>PythonQuito</title>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, height=device-height, maximum-scale=1.0"/>
 
@@ -9,25 +9,35 @@
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:100,400,700,300italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+	 <link rel="shortcut icon" href="https://www.python.org/static/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="https://www.python.org/static/apple-touch-icon-144x144-precomposed.png">
 
 </head>
 
-<body class="">
-
-	<nav class="main-menu">
+<body>
+	<nav class="navbar main-menu navbar-fixed-top">
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-8 col-md-8 col-md-offset-1">
-					<a href="#django-girls" class="col-md-2">Django Girls</a>
-					<a href="#charlas" class="col-md-2">Charlas</a>
-					<a href="#mapa" class="col-md-2">Locación</a>
-					<a href="#org" class="col-md-2">Organización</a>
-				</div>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Python Quito</a>
 			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Django Girls</a></li>
+					<li><a href="#charlas">Charlas</a></li>
+					<li><a href="#mapa">Lugar</a></li>
+					<li><a href="#org">Organización</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
 		</div>
 	</nav>
-	
-	<div class="container">
+
+	<div class="container starter-template" role="main">
 		<div class="row" id="main">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="main-div div-shadow">
@@ -49,18 +59,18 @@
 				<div class="info-div div-shadow">
 					<div class="row">
 						<h4 class="col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-2">
-						¡Enamórate de la programación!
+							¡Enamórate de la programación!
 						</h4>
 						<p class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
-						Introducción a programación para chicas, con Python y Django. <br/> Si ya tienes experiencia con Python y Django, ¡inscríbete cómo un entrenador!
+							Introducción a programación para chicas, con Python y Django. <br/> Si ya tienes experiencia con Python y Django, ¡inscríbete cómo un entrenador!
 						</p>
 						<p class="info col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
-						Viernes 4 de marzo, de 18:30 a 20:00  /  
-						Sábado 5 de marzo, de 09:00 a 18:30
-						<br/>
-						Inscripciones hasta el 1 de marzo. 
-						<br/>
-						¡El evento es gratuito!
+							Viernes 4 de marzo, de 18:30 a 20:00  /  
+							Sábado 5 de marzo, de 09:00 a 18:30
+							<br/>
+							Inscripciones hasta el 1 de marzo. 
+							<br/>
+							¡El evento es gratuito!
 						</p>
 						<div class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2 cta-div">
 							<a href="https://djangogirls.org/quito/" target="blank" class="cta-green">Regístrate aquí</a>
@@ -83,29 +93,29 @@
 				<div class="info-div div-shadow">
 					<div class="row">
 						<h4 class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
-						¡Aprende Python de los mejores!
+							¡Aprende Python de los mejores!
 						</h4>
 						<p class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
-						Se tratarán diversos temas que serán publicados en este espacio muy pronto. 
+							Se tratarán diversos temas que serán publicados en este espacio muy pronto. 
 						</p>
 						<p class="info col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
-						Miércoles 9 de marzo, de 18:30 a 22:00  /  
-						Jueves 10 de marzo, de 18:30 a 22:00
-						<br/>
-						Inscripciones hasta el 1 de marzo. 
-						<br/>
-						El evento tiene un costo de $10 (por la camiseta) <br/>
-						* Si no puedes cancelar el costo, contáctate con nosotros.
+							Miércoles 9 de marzo, de 18:30 a 22:00  /  
+							Jueves 10 de marzo, de 18:30 a 22:00
+							<br/>
+							Inscripciones hasta el 1 de marzo. 
+							<br/>
+							El evento tiene un costo de $10 (por la camiseta) <br/>
+							* Si no puedes cancelar el costo, contáctate con nosotros.
 						</p>
 						<div class="col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-2 cta-div">
 							<a href="" class="cta-green">Regístrate como asistente</a>
 						</div>
 						<p class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
-						<br/>Si te gustaría presentar una charla en el evento, ¡envía tu propuesta ahora mismo!
-						El formulario estará disponible hasta el 21 de Febrero 
+							<br/>Si te gustaría presentar una charla en el evento, ¡envía tu propuesta ahora mismo!
+							El formulario estará disponible hasta el 21 de Febrero 
 						</p>
 						<p class="info col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
-						(Las charlas seleccionadas se publicarán el 23 de Febrero).
+							(Las charlas seleccionadas se publicarán el 23 de Febrero).
 						</p>
 						<div class="col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-2 cta-div">
 							<a href="https://docs.google.com/forms/d/1LNArwMR0FMjaw0cHsutXpykuGtn5h2H49xJsNGJL7bE/viewform"  target="blank" class="cta-green">Regístrate como presentador</a>
@@ -113,14 +123,16 @@
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 		<div class="row" id="mapa">
-			<h2 class="col-md-10 col-md-offset-1">Locación</h2>
+			<h2 class="col-md-10 col-md-offset-1">Lugar</h2>
 		</div>
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="mapa-div div-shadow">
-					<p>AQUI VA EL MAPA</p>
+					<p>
+						<div id="map-canvas" class="location-area" data-address="Edificio Brescia. Piso 9, Av República de El Salvador Avenida República del Salvador N34-107 and Suiza, Quito 170135, Quito - Pichincha, Ecuador"></div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -128,38 +140,51 @@
 			<h2 class="col-md-10 col-md-offset-1">Organización</h2>
 			<div class="col-xs-offset-2 col-md-3 col-md-offset-1">
 				<a href="https://github.com/turicas" target="blank">
-				<img src="images/organisers-01.png" class="org-images">
-				<h4 class="org-text">Álvaro Justen</h4></a>
-			</div>
-			<div class="col-xs-offset-2 col-md-3 col-sm-offset-0">
-				<a href="https://github.com/luhhsnunes" target="blank">
-				<img src="images/organisers-03.png" class="org-images">
-				<h4 class="org-text">Luiza Nunes</h4></a>
-			</div>
-			<div class="col-xs-offset-2 col-md-3 col-sm-offset-0">
-				<a href="https://github.com/tdruiva" target="blank">
-				<img src="images/organisers-04.png" class="org-images">
-				<h4 class="org-text">Tania Silva</h4></a>
-			</div>
-			
-		</div>
-
-
-	</div>
-
-	<footer class="footer">
-		<div class="container">
-			<div class="row">
-			<p class="tw-logo-info">Con el apoyo de</p>
-			<a href="https://www.thoughtworks.com/es/" target="blank">
-				<img src="images/tw-logo.png" class="tw-logo">
-					<div class="col-sm-8 col-md-8 col-md-offset-1">
-					</div>
+					<img src="images/organisers-01.png" class="org-images">
+					<h4 class="org-text">Álvaro Justen</h4></a>
 				</div>
-			</a>
-		</div>
-	</footer> 
+				<div class="col-xs-offset-2 col-md-3 col-sm-offset-0">
+					<a href="https://github.com/luhhsnunes" target="blank">
+						<img src="images/organisers-03.png" class="org-images">
+						<h4 class="org-text">Luiza Nunes</h4></a>
+					</div>
+					<div class="col-xs-offset-2 col-md-3 col-sm-offset-0">
+						<a href="https://github.com/tdruiva" target="blank">
+							<img src="images/organisers-04.png" class="org-images">
+							<h4 class="org-text">Tania Silva</h4></a>
+						</div>
+					</div>
 
-</body>
 
-</html>
+				</div>
+
+				<footer class="footer">
+					<div class="container">
+						<div class="row">
+							<p class="tw-logo-info">Con el apoyo de</p>
+							<a href="https://www.thoughtworks.com/es/" target="blank">
+								<img src="images/tw-logo.png" class="tw-logo">
+								<div class="col-sm-8 col-md-8 col-md-offset-1">
+								</div>
+							</div>
+						</a>
+					</div>
+				</footer> 
+				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+				<script src="http://maps.google.com/maps/api/js"></script>
+				<script src="js/bootstrap.min.js"></script>
+				<script src="js/main.js"></script>
+				<script type="text/javascript">
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', '<%= @site.googleanalytics %>']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+				</script>
+			</body>
+
+			</html>
